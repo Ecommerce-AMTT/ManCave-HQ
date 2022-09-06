@@ -19,5 +19,13 @@
     "express": "^4.17.2",
     "graphql": "^15.8.0"
   },
-  "description": ""
+  "description": "[![license](https://img.shields.io/badge/license-mit-a2a429.svg)](http://choosealicense.com/licenses/mit/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ecommerce-AMTT/myhomeoffice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ecommerce-AMTT/myhomeoffice/issues"
+  },
+  "homepage": "https://github.com/Ecommerce-AMTT/myhomeoffice#readme"
 }
