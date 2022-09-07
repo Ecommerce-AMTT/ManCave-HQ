@@ -92,7 +92,7 @@ const SearchBooks = () => {
     <>
       <Jumbotron fluid className="text-light bg-dark">
         <Container>
-          <h1>Search for Books!</h1>
+          <h1>Search for Products!</h1>
           <Form onSubmit={handleFormSubmit}>
             <Form.Row>
               <Col xs={12} md={8}>
@@ -102,11 +102,11 @@ const SearchBooks = () => {
                   onChange={(e) => setSearchInput(e.target.value)}
                   type="text"
                   size="lg"
-                  placeholder="Search for a book"
+                  placeholder="Search for a product"
                 />
               </Col>
               <Col xs={12} md={4}>
-                <Button type="submit" variant="success" size="lg">
+                <Button type="submit" variant="danger" size="lg">
                   Submit Search
                 </Button>
               </Col>
@@ -116,11 +116,6 @@ const SearchBooks = () => {
       </Jumbotron>
 
       <Container>
-        <h2>
-          {searchedBooks.length
-            ? `Viewing ${searchedBooks.length} results:`
-            : 'Search for a book to begin'}
-        </h2>
         <CardColumns>
           {searchedBooks.map((book) => {
             return (

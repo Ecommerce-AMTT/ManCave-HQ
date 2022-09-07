@@ -1,5 +1,6 @@
 body {
   font-family: 'Rubik', sans-serif;
+  background: linear-gradient(to top, #09203f 0%, #537895 100%)
 }
 
 h1,
@@ -14,4 +15,12 @@ h6 {
 .small {
   font-weight: 300;
   font-style: italic;
+}
+
+a {
+  color: rgb(211, 203, 203)
+}
+
+a:hover {
+  color: rgb(139, 42, 42)
 }
