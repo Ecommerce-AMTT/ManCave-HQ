@@ -85,6 +85,7 @@ export default function Contact() {
           </div>
         )}
 
+          {/* this div contains the button to submit the contact information form  */}
         <div className="mt-5 mb-5">
           <button
             data-testid="button"
