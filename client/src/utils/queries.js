@@ -17,3 +17,34 @@ export const QUERY_ME = gql`
     }
   }
 `;
+
+// Get all products
+export const QUERY_ALL_PRODUCTS = gql`
+  {
+    allProducts {
+      product {
+        productId
+        name
+        description
+        image
+        price
+        stock
+        category
+        reviews
+      }
+    }
+  }
+`;
+
+// Get single product, given ID
+export const QUERY_PRODUCT = gql`
+  oneProduct($_id: String!) {
+    oneProduct(_id: $_id) {
+      product {
+        productId
+        name
+        stock
+      }
+    }
+  }
+`;

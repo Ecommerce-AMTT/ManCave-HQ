@@ -59,3 +59,23 @@ export const REMOVE_BOOK = gql`
     }
   }
 `;
+
+// Add product to Cart
+export const ADD_TO_CART = gql`
+  mutation addToCart($productId: String!, $productName: String!) {
+    addCartFunction(productId: $productId, productName: $productName) {
+      productId
+      productName
+    }
+  }
+`
+
+// Remove product from Cart
+export const REMOVE_FROM_CART = gql`
+  mutation removeFromCart($productId: String!, $productName: String!) {
+    removeCartFunction(productId: $productId, productName: $productName) {
+      productId
+      productName
+    }
+  }
+`
