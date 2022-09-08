@@ -4,7 +4,14 @@ import { Card, Container } from "react-bootstrap";
 export default function About() {
   return (
     <Container className="d-flex flex-wrap">
-      <Card className="m-3 p-2" style={{ width: "18rem", background: 'linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898'}}>
+      <Card
+        className="m-3 p-2"
+        style={{
+          width: "18rem",
+          background:
+            "linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898",
+        }}
+      >
         <Card.Img
           src="../../assets/images/pfp.jpg"
           className="card-img-top"
@@ -45,7 +52,14 @@ export default function About() {
         </Card.Text>
       </Card>
 
-      <Card className="m-3 p-2" style={{ width: "18rem", background: 'linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898'}}>
+      <Card
+        className="m-3 p-2"
+        style={{
+          width: "18rem",
+          background:
+            "linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898",
+        }}
+      >
         <Card.Img
           src="../../assets/images/TP.jpeg"
           className="card-img-top"
@@ -54,7 +68,8 @@ export default function About() {
         <Card.Body className="container text-center ">
           <Card.Title style={{ fontSize: 30 }}>Tony Poku</Card.Title>
           <Card.Text>
-          Anthony Poku is a full-stack web developer, who is currently enrolled in the Northwestern Full-stack Web Developer Boot Camp.
+            Anthony Poku is a full-stack web developer, who is currently
+            enrolled in the Northwestern Full-stack Web Developer Boot Camp.
           </Card.Text>
         </Card.Body>
         <Card.Text className="container text-center " style={{ fontSize: 25 }}>
@@ -84,7 +99,14 @@ export default function About() {
         </Card.Text>
       </Card>
 
-      <Card className="m-3 p-2" style={{ width: "18rem", background: 'linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898'}}>
+      <Card
+        className="m-3 p-2"
+        style={{
+          width: "18rem",
+          background:
+            "linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898",
+        }}
+      >
         <Card.Img
           src="../../assets/images/tom.jpg"
           className="card-img-top"
@@ -93,7 +115,11 @@ export default function About() {
         <Card.Body className="container text-center ">
           <Card.Title style={{ fontSize: 30 }}>Tommy Lee</Card.Title>
           <Card.Text>
-          Hello, Tommy Lee here. I am currently attending Northwestern University's Coding Bootcamp to earn a certificate in full stack web development. With my newly developed skills, I hope to start fresh in this exciting industry and gain as much insight possible to make beautiful user-facing web applications.
+            Hello, Tommy Lee here. I am currently attending Northwestern
+            University's Coding Bootcamp to earn a certificate in full stack web
+            development. With my newly developed skills, I hope to start fresh
+            in this exciting industry and gain as much insight possible to make
+            beautiful user-facing web applications.
           </Card.Text>
         </Card.Body>
         <Card.Text className="container text-center " style={{ fontSize: 25 }}>
@@ -122,9 +148,6 @@ export default function About() {
           </span>
         </Card.Text>
       </Card>
-
-      
     </Container>
   );
 }
-
