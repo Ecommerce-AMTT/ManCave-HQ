@@ -1,6 +1,7 @@
 const { AuthenticationError } = require('apollo-server-express');
 const { User } = require('../models');
 const { signToken } = require('../utils/auth');
+const axios = require("axios");
 
 const resolvers = {
   Query: {
@@ -13,6 +14,14 @@ const resolvers = {
 
       throw new AuthenticationError('Not logged in');
     },
+    allProduct: async (_, args) => {
+      const response = await axios.get(`https://dummyjson.com/products`);
+      return response.data.products;
+    },
+    singleProduct: async (_, args) => {
+      const response = await axios.get(`https://dummyjson.com/products/1`);
+      return response.data;
+    }
   },
 
   Mutation: {
