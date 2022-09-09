@@ -29,6 +29,7 @@ export const QUERY_ALL_PRODUCTS = gql`
         price
         discountPercentage
         rating
+        brand
         category
         thumbnail
         images
@@ -54,6 +55,7 @@ export const QUERY_PRODUCT = gql`
         price
         discountPercentage
         rating
+        brand
         category
         thumbnail
         images
