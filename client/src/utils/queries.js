@@ -23,14 +23,21 @@ export const QUERY_ALL_PRODUCTS = gql`
   {
     allProducts {
       product {
-        productId
-        name
+        id
+        title
         description
-        image
         price
+        discountPercentage
+        rating
+        category
+        thumbnail
+        images
         stock
         category
-        reviews
+        reviews {
+          title
+          rating
+        }
       }
     }
   }
@@ -38,12 +45,24 @@ export const QUERY_ALL_PRODUCTS = gql`
 
 // Get single product, given ID
 export const QUERY_PRODUCT = gql`
-  oneProduct($_id: String!) {
+  oneProduct($_id) {
     oneProduct(_id: $_id) {
       product {
-        productId
-        name
+        id
+        title
+        description
+        price
+        discountPercentage
+        rating
+        category
+        thumbnail
+        images
         stock
+        category
+        reviews {
+          title
+          rating
+        }
       }
     }
   }

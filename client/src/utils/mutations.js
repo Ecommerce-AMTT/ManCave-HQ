@@ -62,20 +62,22 @@ export const REMOVE_BOOK = gql`
 
 // Add product to Cart
 export const ADD_TO_CART = gql`
-  mutation addToCart($productId: String!, $productName: String!) {
-    addCartFunction(productId: $productId, productName: $productName) {
+  mutation addToCart($productId: String!, $name: String!, $cart_name: String!) {
+    addCartFunction(productId: $productId, name: $name, cartName: $cart_name) {
       productId
-      productName
+      name
+      cartName
     }
   }
 `
 
 // Remove product from Cart
 export const REMOVE_FROM_CART = gql`
-  mutation removeFromCart($productId: String!, $productName: String!) {
-    removeCartFunction(productId: $productId, productName: $productName) {
+  mutation removeFromCart($productId: String!, $name: String!, $cart_name: String!) {
+    removeCartFunction(productId: $productId, name: $name, cartName: $cart_name) {
       productId
-      productName
+      name
+      cartName
     }
   }
 `
