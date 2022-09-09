@@ -6,6 +6,9 @@ const typeDefs = gql`
     username: String!
     email: String
     bookCount: Int
+    addresses: String
+    tags: [Tag]
+    carts: Cart
     savedBooks: [Book]
   }
 
@@ -34,6 +37,29 @@ const typeDefs = gql`
   type Auth {
     token: ID!
     user: User
+  }
+
+  type Product {
+    description: String
+    image: String
+    price: Number
+    category: Category
+    reviews: Review
+  }
+
+  type Review {
+    title: String
+    rating: Number
+  }
+
+  type Tag {
+    tagId: ID!
+    tagName: String
+  }
+
+  type Cart {
+    cart_name: String
+    products [Product]
   }
 
   input BookInput {

@@ -15,13 +15,19 @@ const AppNavbar = () => {
       <Navbar bg='dark' variant='dark' expand='lg'>
         <Container fluid>
           <Navbar.Brand as={Link} to='/'>
-            Home Office
+            ManCave HQ
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='navbar' />
           <Navbar.Collapse id='navbar'>
             <Nav className='ml-auto'>
               <Nav.Link as={Link} to='/'>
-                Search For Books
+                Search for Products
+              </Nav.Link>
+              <Nav.Link as={Link} to='/about'>
+                About Us
+              </Nav.Link>
+              <Nav.Link as={Link} to='/contact'>
+                Contact Us
               </Nav.Link>
               {/* if user is logged in show saved books and logout */}
               {Auth.loggedIn() ? (
