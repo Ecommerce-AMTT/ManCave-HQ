@@ -40,16 +40,21 @@ const typeDefs = gql`
   }
 
   type Product {
+    title: String
     description: String
-    image: String
-    price: Number
-    category: Category
+    price: Int
     reviews: Review
+    discountPercentage: String
+    rating: String
+    brand: String
+    category: String
+    thumbnail: String
+    images: [String]
   }
 
   type Review {
     title: String
-    rating: Number
+    rating: Int
   }
 
   type Tag {
@@ -59,7 +64,7 @@ const typeDefs = gql`
 
   type Cart {
     cart_name: String
-    products [Product]
+    products: [Product]
   }
 
   input BookInput {
@@ -73,8 +78,9 @@ const typeDefs = gql`
 
   type Query {
     me: User
+    allProducts: [Product]
+    singleProduct: Product
     getAllProducts: [Product]
-    # getProduct(id: ID!): Product
   }
 
   type Mutation {
