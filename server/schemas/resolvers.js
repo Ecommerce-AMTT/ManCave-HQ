@@ -14,7 +14,7 @@ const resolvers = {
 
       throw new AuthenticationError('Not logged in');
     },
-    allProduct: async (_, args) => {
+    allProducts: async (_, args) => {
       const response = await axios.get(`https://dummyjson.com/products`);
       return response.data.products;
     },
