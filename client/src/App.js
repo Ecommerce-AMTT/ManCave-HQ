@@ -14,6 +14,9 @@ import Navbar from './components/Navbar';
 import About from './pages/About'
 import Contact from './pages/Contact';
 import Cart from './components/Cart';
+import Home from './pages/Home';
+import Detail from './pages/Detail';
+import OrderHistory from './pages/OrderHistory';
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({
@@ -54,6 +57,10 @@ function App() {
               path="/saved" 
               element={<SavedBooks/>} 
             />
+            <Route 
+                path="/" 
+                element={<Home />} 
+              />
              <Route 
               path="/about" 
               element={<About/>} 
@@ -62,6 +69,14 @@ function App() {
               path="/contact" 
               element={<Contact/>} 
             />
+              <Route 
+                path="/orderHistory" 
+                element={<OrderHistory />} 
+              />
+            <Route 
+                path="/products/:id" 
+                element={<Detail />} 
+              />
             <Route 
               path='*' 
               element={<h1 className="display-2">Wrong page!</h1>}
