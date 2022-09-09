@@ -13,7 +13,7 @@ import SavedBooks from './pages/SavedBooks';
 import Navbar from './components/Navbar';
 import About from './pages/About'
 import Contact from './pages/Contact';
-
+import Cart from './components/Cart';
 
 // Construct our main GraphQL API endpoint
 const httpLink = createHttpLink({

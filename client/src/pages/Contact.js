@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {validateEmail} from '../utils/helpers'
+import { Card, Container, Button } from "react-bootstrap";
 
 export default function Contact() {
   const [formState, setFormState] = useState({
@@ -87,14 +88,14 @@ export default function Contact() {
 
           {/* this div contains the button to submit the contact information form  */}
         <div className="mt-5 mb-5">
-          <button
+          <Button
             data-testid="button"
-            className="btn button-style"
+            className="button-85"
             type="submit"
             onSubmit={handleSubmit}
           >
             Submit
-          </button>
+          </Button>
         </div>
       </form>
     </section>
