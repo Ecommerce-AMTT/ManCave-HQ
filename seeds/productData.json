@@ -45,66 +45,93 @@
         "reviews": "Love it, bought 2 for my home office"
     },
     {
-        "description": "HP Computer Monitor",
+        "description": "Insignia Ethernet Cable",
         "image": ["...", "...", "..."],
-        "price": 149.99,
-        "Category": "Computer Monitors",
-        "rating": 4.69,
-        "Tag": ["HP", "monitor"],
-        "reviews": "solid, sleak, would buy again"
+        "price": 15.99,
+        "Category": "Computer Cables",
+        "rating": 4.95,
+        "Tag": ["Insignia", "Ethernet", "Cables"],
+        "reviews": "works perfectly"
     },
     {
-        "description": "HP Computer Monitor",
+        "description": "AudioQuest HDMI Cable",
         "image": ["...", "...", "..."],
-        "price": 149.99,
-        "Category": "Computer Monitors",
-        "rating": 4.69,
-        "Tag": ["HP", "monitor"],
-        "reviews": "solid, sleak, would buy again"
+        "price": 79.95,
+        "Category": "Computer Cables",
+        "rating": 4.97,
+        "Tag": ["AudioQuest", "HDMI", "Cables"],
+        "reviews": "highly recommend if you want your TV picture to look amazing!"
     },
     {
-        "description": "HP Computer Monitor",
+        "description": "Apple USB Type C to Lightning Charging Cable",
         "image": ["...", "...", "..."],
-        "price": 149.99,
-        "Category": "Computer Monitors",
-        "rating": 4.69,
-        "Tag": ["HP", "monitor"],
-        "reviews": "solid, sleak, would buy again"
+        "price": 29.00,
+        "Category": "Computer Cables",
+        "rating": 4.0,
+        "Tag": ["Apple", "USB", "Cables"],
+        "reviews": "...since Apple won't provide us with one when we buy their phones..."
     },
     {
-        "description": "HP Computer Monitor",
+        "description": "Best Buy Essentials 6' DisplayPort Cable",
         "image": ["...", "...", "..."],
-        "price": 149.99,
-        "Category": "Computer Monitors",
-        "rating": 4.69,
-        "Tag": ["HP", "monitor"],
-        "reviews": "solid, sleak, would buy again"
+        "price": 8.99,
+        "Category": "Computer Cables",
+        "rating": 4.90,
+        "Tag": ["Best Buy", "DisplayPort", "Cables"],
+        "reviews": "perfect and inexpensive"
     },
     {
-        "description": "HP Computer Monitor",
+        "description": "Metra 17 Inch RCA Cable",
         "image": ["...", "...", "..."],
-        "price": 149.99,
-        "Category": "Computer Monitors",
+        "price": 12.99,
+        "Category": "Computer Cables",
         "rating": 4.69,
-        "Tag": ["HP", "monitor"],
-        "reviews": "solid, sleak, would buy again"
+        "Tag": ["Metra", "RCA", "Cables"],
+        "reviews": "great product!"
     },
     {
-        "description": "HP Computer Monitor",
+        "description": "BlueParrott Wireless Headset",
         "image": ["...", "...", "..."],
-        "price": 149.99,
-        "Category": "Computer Monitors",
-        "rating": 4.69,
-        "Tag": ["HP", "monitor"],
-        "reviews": "solid, sleak, would buy again"
+        "price": 169.99,
+        "Category": "Bluetooth Equipment",
+        "rating": 4.80,
+        "Tag": ["Bluetooth", "BlueParrot", "Headset"],
+        "reviews": "best headset I've ever owned"
     },
     {
-        "description": "HP Computer Monitor",
+        "description": "Sony Digital Bluetooth Wireless Microphone",
         "image": ["...", "...", "..."],
-        "price": 149.99,
-        "Category": "Computer Monitors",
-        "rating": 4.69,
-        "Tag": ["HP", "monitor"],
-        "reviews": "solid, sleak, would buy again"
-    }
+        "price": 229.99,
+        "Category": "Bluetooth Equipment",
+        "rating": 4.44,
+        "Tag": ["Bluetooth", "Sony", "Microphone"],
+        "reviews": "really love the holder that helps it from getting lost"
+    },
+    {
+        "description": "Bose SoundLink Flex Portable Speaker",
+        "image": ["...", "...", "..."],
+        "price": 229.99,
+        "Category": "Bluetooth Equipment",
+        "rating": 4.44,
+        "Tag": ["Bluetooth", "Bose", "Waterproof"],
+        "reviews": "Bose is superior to JBL & Sony!"
+    },
+    {
+        "description": "",
+        "image": ["...", "...", "..."],
+        "price": 229.99,
+        "Category": "Bluetooth Equipment",
+        "rating": 4.44,
+        "Tag": ["Bluetooth", "", ""],
+        "reviews": ""
+    },
+    {
+        "description": "",
+        "image": ["...", "...", "..."],
+        "price": 229.99,
+        "Category": "",
+        "rating": 4.44,
+        "Tag": ["Bluetooth", "", ""],
+        "reviews": ""
+    },
 ]
