@@ -66,6 +66,8 @@ const LoginForm = () => {
         >
           Something went wrong with your login credentials!
         </Alert>
+
+        {/* login input field for email  */}
         <Form.Group>
           <Form.Label htmlFor="email">Email</Form.Label>
           <Form.Control
@@ -81,6 +83,7 @@ const LoginForm = () => {
           </Form.Control.Feedback>
         </Form.Group>
 
+        {/* login input field for password  */}
         <Form.Group>
           <Form.Label htmlFor="password">Password</Form.Label>
           <Form.Control
@@ -98,7 +101,7 @@ const LoginForm = () => {
         <Button
           disabled={!(userFormData.email && userFormData.password)}
           type="submit"
-          variant="success"
+          className="button-85"
         >
           Submit
         </Button>
