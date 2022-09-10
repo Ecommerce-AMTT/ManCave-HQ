@@ -39,10 +39,12 @@ const Cart = () => {
     }
   }, [state.cart.length, dispatch]);
 
+  // change the state of the cart to be shown or hidden
   function toggleCart() {
     dispatch({ type: TOGGLE_CART });
   }
 
+  // calculates the total of the cart and rounds it at two decimal points 
   function calculateTotal() {
     let sum = 0;
     state.cart.forEach((item) => {
@@ -85,6 +87,10 @@ const Cart = () => {
       <h2>Shopping Cart</h2>
       {state.cart.length ? (
         <div>
+          {/* {() => {for (const item of Object.keys(state.cart)){
+            // const data = state.cart[item];
+            <CartItem key={item._id} item={item}/>
+          }}} */}
           {state.cart.map((item) => (
             <CartItem key={item._id} item={item} />
           ))}
