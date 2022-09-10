@@ -1,7 +1,8 @@
 const { Schema, model } = require("mongoose");
-const reviewSchema = require("/Reviews");
+const Category = require("./Category");
 
 const productSchema = new Schema({
+
   productId: String,
   name: String,
   description: String,
@@ -15,4 +16,6 @@ const productSchema = new Schema({
   reviews: [reviewSchema],
 });
 
-module.export = model("Product", productSchema);
+const Product = model("Product", productSchema);
+
+module.exports = Product;
