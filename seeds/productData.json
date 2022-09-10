@@ -6,6 +6,7 @@
         "category": "Computer Monitors",
         "categoryId": 1,
         "rating": 4.69,
+        "stock": 10,
         "tag": ["HP", "Monitor"],
         "reviews": "solid, sleak, would buy again"
     },
@@ -16,6 +17,7 @@
         "category": "Computer Monitors",
         "categoryId": 1,
         "rating": 3.9,
+        "stock": 110,
         "tag": ["Samsung", "Monitor"],
         "reviews": "Stunning, immersive"
     },
@@ -26,6 +28,7 @@
         "category": "Computer Monitors",
         "categoryId": 1,
         "rating": 4.80,
+        "stock": 209,
         "tag": ["LG", "Monitor"],
         "reviews": "Excellent monitor for the price"
     },
@@ -36,6 +39,7 @@
         "category": "Computer Monitors",
         "categoryId": 1,
         "rating": 4.69,
+        "stock": 0,
         "tag": ["Lenovo", "Monitor"],
         "reviews": "solid, sleak, would buy again"
     },
@@ -46,6 +50,7 @@
         "category": "Computer Monitors",
         "categoryId": 1,
         "rating": 4.69,
+        "stock": 22,
         "tag": ["HP", "Monitor"],
         "reviews": "Love it, bought 2 for my home office"
     },
@@ -66,6 +71,7 @@
         "category": "Computer Cables",
         "categoryId": 2,
         "rating": 4.97,
+        "stock": 33,
         "tag": ["AudioQuest", "HDMI", "Cables"],
         "reviews": "highly recommend if you want your TV picture to look amazing!"
     },
@@ -76,6 +82,7 @@
         "category": "Computer Cables",
         "categoryId": 2,
         "rating": 4.0,
+        "stock": 150,
         "tag": ["Apple", "USB", "Cables"],
         "reviews": "...since Apple won't provide us with one when we buy their phones..."
     },
@@ -86,6 +93,7 @@
         "category": "Computer Cables",
         "categoryId": 2,
         "rating": 4.90,
+        "stock": 50,
         "tag": ["Best Buy", "DisplayPort", "Cables"],
         "reviews": "perfect and inexpensive"
     },
@@ -96,6 +104,7 @@
         "category": "Computer Cables",
         "categoryId": 2,
         "rating": 4.69,
+        "stock": 79,
         "tag": ["Metra", "RCA", "Cables"],
         "reviews": "great product!"
     },
@@ -106,6 +115,7 @@
         "category": "Bluetooth Equipment",
         "categoryId": 3,
         "rating": 4.80,
+        "stock": 199,
         "tag": ["Bluetooth", "BlueParrot", "Headset"],
         "reviews": "best headset I've ever owned"
     },
@@ -116,6 +126,7 @@
         "category": "Bluetooth Equipment",
         "categoryId": 3,
         "rating": 4.44,
+        "stock": 123,
         "tag": ["Bluetooth", "Sony", "Microphone"],
         "reviews": "really love the holder that helps it from getting lost"
     },
@@ -126,6 +137,7 @@
         "category": "Bluetooth Equipment",
         "categoryId": 3,
         "rating": 4.90,
+        "stock": 45,
         "tag": ["Bluetooth", "Bose", "Waterproof"],
         "reviews": "Bose is superior to JBL & Sony!"
     },
@@ -136,6 +148,7 @@
         "category": "Bluetooth Equipment",
         "categoryId": 3,
         "rating": 4.99,
+        "stock": 300,
         "tag": ["Bluetooth", "Logitech", "Mouse"],
         "reviews": "this feels pleasant in the hand, nice and small"
     },
@@ -146,6 +159,7 @@
         "category": "Bluetooth Equipment",
         "categoryId": 3,
         "rating": 4.5,
+        "stock": 12,
         "tag": ["Bluetooth", "ASUS"],
         "reviews": "works perfectly"
     },
@@ -156,6 +170,7 @@
         "category": "Keyboards",
         "categoryId": 4,
         "rating": 4.13,
+        "stock": 1,
         "tag": ["Microsoft", "Keyboard"],
         "reviews": "useful, all the keys work seamlessly. only thing it doesn't have are little keyboard legs"
     },
@@ -166,6 +181,7 @@
         "category": "Keyboards",
         "categoryId": 4,
         "rating": 4.5,
+        "stock": 5,
         "tag": ["Logitech", "Keyboard"],
         "reviews": "Comfort, easy, love it"
     },
@@ -176,6 +192,7 @@
         "category": "Keyboards",
         "categoryId": 4,
         "rating": 4.20,
+        "stock": 10,
         "tag": ["Razer", "Keyboard"],
         "reviews": "so colorful, wooow"
     },
@@ -186,6 +203,7 @@
         "category": "Keyboards",
         "categoryId": 4,
         "rating": 4.80,
+        "stock": 10,
         "tag": ["HyperX", "Gaming", "Keyboard"],
         "reviews": "it looks fantastic, great product, especially for the price"
     },
@@ -196,6 +214,7 @@
         "category": "Keyboards",
         "categoryId": 4,
         "rating": 4.94,
+        "stock": 40,
         "tag": ["Apple", "Keyboard"],
         "reviews": "keyboard is great, except it lays flat on the desktop, not comfortable for me"
     },
@@ -206,6 +225,7 @@
         "category": "Ergonomics",
         "categoryId": 5,
         "rating": 4.96,
+        "stock": 50,
         "tag": ["Chair", "Ergonomics"],
         "reviews": "I can sit in it for hours, and still be very comfortable"
     },
@@ -216,6 +236,7 @@
         "category": "Ergonomics",
         "categoryId": 5,
         "rating": 4.94,
+        "stock": 60,
         "tag": ["Logitech", "Mouse", "Ergonomics"],
         "reviews": "I love this mouse, got it for my iMac"
     },
@@ -226,6 +247,7 @@
         "category": "Ergonomics",
         "categoryId": 5,
         "rating": 4.49,
+        "stock": 90,
         "tag": ["Microsoft", "Keyboard", "Ergonomics"],
         "reviews": "so glad I found it, it is amazing!"
     },
@@ -236,6 +258,7 @@
         "category": "Ergonomics",
         "categoryId": 5,
         "rating": 4.90,
+        "stock": 80,
         "tag": ["Laptop Stand", "Insignia", "Ergonomics"],
         "reviews": "better elevates my laptop for the fan"
     },
@@ -246,6 +269,7 @@
         "category": "Ergonomics",
         "categoryId": 5,
         "rating": 4.97,
+        "stock": 230,
         "tag": ["Razer", "Wrist Rest", "Ergonomics"],
         "reviews": "nice and comfy, well constructed"
     }
