@@ -198,5 +198,55 @@
         "rating": 4.94,
         "tag": ["Apple", "Keyboard"],
         "reviews": "keyboard is great, except it lays flat on the desktop, not comfortable for me"
+    },
+    {
+        "description": "Insignia Ergonomic Mesh Chair",
+        "image": ["...", "...", "..."],
+        "price": 249.99,
+        "category": "Ergonomics",
+        "categoryId": 5,
+        "rating": 4.96,
+        "tag": ["Chair", "Ergonomics"],
+        "reviews": "I can sit in it for hours, and still be very comfortable"
+    },
+    {
+        "description": "Logitech ERGO M575 Mouse With Ergonomic Design",
+        "image": ["...", "...", "..."],
+        "price": 49.99,
+        "category": "Ergonomics",
+        "categoryId": 5,
+        "rating": 4.94,
+        "tag": ["Logitech", "Mouse", "Ergonomics"],
+        "reviews": "I love this mouse, got it for my iMac"
+    },
+    {
+        "description": "Microsoft Sculpt Desktop Ergonomic Full Size Keyboard",
+        "image": ["...", "...", "..."],
+        "price": 99.99,
+        "category": "Ergonomics",
+        "categoryId": 5,
+        "rating": 4.49,
+        "tag": ["Microsoft", "Keyboard", "Ergonomics"],
+        "reviews": "so glad I found it, it is amazing!"
+    },
+    {
+        "description": "Insignia Ergnomic Laptop Stand - Silver",
+        "image": ["...", "...", "..."],
+        "price": 29.99,
+        "category": "Ergonomics",
+        "categoryId": 5,
+        "rating": 4.90,
+        "tag": ["Laptop Stand", "Insignia", "Ergonomics"],
+        "reviews": "better elevates my laptop for the fan"
+    },
+    {
+        "description": "Razer Ergonomic Pro Wrist Rest",
+        "image": ["...", "...", "..."],
+        "price": 34.99,
+        "category": "Ergonomics",
+        "categoryId": 5,
+        "rating": 4.97,
+        "tag": ["Razer", "Wrist Rest", "Ergonomics"],
+        "reviews": "nice and comfy, well constructed"
     }
 ]
