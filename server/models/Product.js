@@ -2,16 +2,18 @@ const { Schema, model } = require("mongoose");
 const Category = require("./Category");
 
 const productSchema = new Schema({
-  title: String,
+
+  productId: String,
+  name: String,
   description: String,
-  price: String,
-  discountPercentage: String,
-  rating: String,
-  brand: String,
-  category: String,
-  thumbnail: String,
-  images: [String],
-  categories: [Category.schema],
+  image: String,
+  price: Number,
+  stock: Number,
+  category: {
+    type: Schema.Types.ObjectId,
+    ref: "Category",
+  },
+  reviews: [reviewSchema],
 });
 
 const Product = model("Product", productSchema);

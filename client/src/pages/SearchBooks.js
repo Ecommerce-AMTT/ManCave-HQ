@@ -12,6 +12,7 @@ import {
 import { useMutation } from '@apollo/client';
 import { SAVE_BOOK } from '../utils/mutations';
 import { saveBookIds, getSavedBookIds } from '../utils/localStorage';
+import Cart from '../components/Cart';
 
 import Auth from '../utils/auth';
 
@@ -89,9 +90,10 @@ const SearchBooks = () => {
     }
   };
   return (
-    <>
-      <Jumbotron fluid className="text-light bg-dark">
+    <> 
+      <Jumbotron fluid className="text-light" style={{background: 'linear-gradient(to right, #757f9a, #d7dde8)'}}>
         <Container>
+          
           <h1>Search for Products!</h1>
           <Form onSubmit={handleFormSubmit}>
             <Form.Row>
@@ -106,7 +108,7 @@ const SearchBooks = () => {
                 />
               </Col>
               <Col xs={12} md={4}>
-                <Button type="submit" variant="danger" size="lg">
+                <Button className="button-85" type="submit" size="lg">
                   Submit Search
                 </Button>
               </Col>

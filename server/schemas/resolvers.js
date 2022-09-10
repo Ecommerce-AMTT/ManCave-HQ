@@ -21,11 +21,11 @@ const resolvers = {
       const response = await axios.get(`https://dummyjson.com/products`);
       return response.data.products;
     },
+    singleProduct: async (_, args) => {
+      const response = await axios.get(`https://dummyjson.com/products/1`);
+      return response.data;
+    }
 
-    // getAllProduct: async (parent, { id }) => {
-    //   const response = await axios.get(`https://dummyjson.com/products/{id}`);
-    //   return response.data;
-    // },
   },
 
   Mutation: {
