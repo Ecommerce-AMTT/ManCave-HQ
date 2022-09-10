@@ -1,0 +1,110 @@
+[
+    {
+        "description": "HP Computer Monitor",
+        "image": ["...", "...", "..."],
+        "price": 149.99,
+        "Category": "Computer Monitors",
+        "rating": 4.69,
+        "Tag": ["HP", "Monitor"],
+        "reviews": "solid, sleak, would buy again"
+    },
+    {
+        "description": "Samsung Computer Monitor",
+        "image": ["...", "...", "..."],
+        "price": 319.99,
+        "Category": "Computer Monitors",
+        "rating": 3.9,
+        "Tag": ["Samsung", "Monitor"],
+        "reviews": "Stunning, immersive"
+    },
+    {
+        "description": "LG Computer Monitor",
+        "image": ["...", "...", "..."],
+        "price": 129.99,
+        "Category": "Computer Monitors",
+        "rating": 4.80,
+        "Tag": ["LG", "Monitor"],
+        "reviews": "Excellent monitor for the price"
+    },
+    {
+        "description": "Lenovo Computer Monitor",
+        "image": ["...", "...", "..."],
+        "price": 149.99,
+        "Category": "Computer Monitors",
+        "rating": 4.69,
+        "Tag": ["Lenovo", "Monitor"],
+        "reviews": "solid, sleak, would buy again"
+    },
+    {
+        "description": "Sony Computer Monitor",
+        "image": ["...", "...", "..."],
+        "price": 149.99,
+        "Category": "Computer Monitors",
+        "rating": 4.69,
+        "Tag": ["HP", "Monitor"],
+        "reviews": "Love it, bought 2 for my home office"
+    },
+    {
+        "description": "HP Computer Monitor",
+        "image": ["...", "...", "..."],
+        "price": 149.99,
+        "Category": "Computer Monitors",
+        "rating": 4.69,
+        "Tag": ["HP", "monitor"],
+        "reviews": "solid, sleak, would buy again"
+    },
+    {
+        "description": "HP Computer Monitor",
+        "image": ["...", "...", "..."],
+        "price": 149.99,
+        "Category": "Computer Monitors",
+        "rating": 4.69,
+        "Tag": ["HP", "monitor"],
+        "reviews": "solid, sleak, would buy again"
+    },
+    {
+        "description": "HP Computer Monitor",
+        "image": ["...", "...", "..."],
+        "price": 149.99,
+        "Category": "Computer Monitors",
+        "rating": 4.69,
+        "Tag": ["HP", "monitor"],
+        "reviews": "solid, sleak, would buy again"
+    },
+    {
+        "description": "HP Computer Monitor",
+        "image": ["...", "...", "..."],
+        "price": 149.99,
+        "Category": "Computer Monitors",
+        "rating": 4.69,
+        "Tag": ["HP", "monitor"],
+        "reviews": "solid, sleak, would buy again"
+    },
+    {
+        "description": "HP Computer Monitor",
+        "image": ["...", "...", "..."],
+        "price": 149.99,
+        "Category": "Computer Monitors",
+        "rating": 4.69,
+        "Tag": ["HP", "monitor"],
+        "reviews": "solid, sleak, would buy again"
+    },
+    {
+        "description": "HP Computer Monitor",
+        "image": ["...", "...", "..."],
+        "price": 149.99,
+        "Category": "Computer Monitors",
+        "rating": 4.69,
+        "Tag": ["HP", "monitor"],
+        "reviews": "solid, sleak, would buy again"
+    },
+    {
+        "description": "HP Computer Monitor",
+        "image": ["...", "...", "..."],
+        "price": 149.99,
+        "Category": "Computer Monitors",
+        "rating": 4.69,
+        "Tag": ["HP", "monitor"],
+        "reviews": "solid, sleak, would buy again"
+    }
+]
