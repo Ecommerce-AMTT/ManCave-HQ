@@ -1,11 +1,14 @@
 const { Schema, model } = require("mongoose");
-const reviewSchema = require("/Reviews");
+const Category = require("./Category");
 
 const productSchema = new Schema({
+
   productId: String,
+  name: String,
   description: String,
   image: String,
   price: Number,
+  stock: Number,
   category: {
     type: Schema.Types.ObjectId,
     ref: "Category",
@@ -14,4 +17,6 @@ const productSchema = new Schema({
   reviews: [reviewSchema],
 });
 
-module.export = model("Product", productSchema);
+const Product = model("Product", productSchema);
+
+module.exports = Product;
